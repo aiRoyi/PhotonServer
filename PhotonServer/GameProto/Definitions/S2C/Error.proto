@@ -1,0 +1,14 @@
+syntax = "proto3";
+package Protobuf.S2C;
+
+enum ProtoQuestEngineError
+{
+	InvalidInput = 0;
+	RuntimeError = 1;
+}
+
+message ProtoMessageError
+{
+	ProtoQuestEngineError ErrorCode = 1;
+	string Message = 2;
+}

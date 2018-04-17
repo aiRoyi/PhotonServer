@@ -1,0 +1,14 @@
+syntax = "proto3";
+package Protobuf;
+
+enum C2SMessageType {
+    None = 0;
+    StartGame = 1;
+}
+
+enum S2CMessageType {
+	Error = 0;
+	GameResult = 1;
+
+	Debug = 99;
+}

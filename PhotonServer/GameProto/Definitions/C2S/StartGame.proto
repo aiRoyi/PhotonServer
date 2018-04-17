@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+package Protobuf.C2S;
+
+message StartGame
+{
+    string title = 1;
+
+	string difficulty = 2;
+}

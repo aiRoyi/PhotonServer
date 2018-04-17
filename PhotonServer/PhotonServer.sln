@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonPlugin", "PhotonPlugin\PhotonPlugin.csproj", "{210A3D00-FE5D-4039-A8B1-934708D68F83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{60A2D8F2-C812-4F0A-8CDE-96938C52D586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protobuf", "Protobuf\Protobuf.csproj", "{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "GameEngine\GameEngine.csproj", "{439763A8-6630-4C5A-A8BF-762ED9480284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{210A3D00-FE5D-4039-A8B1-934708D68F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210A3D00-FE5D-4039-A8B1-934708D68F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210A3D00-FE5D-4039-A8B1-934708D68F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210A3D00-FE5D-4039-A8B1-934708D68F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439763A8-6630-4C5A-A8BF-762ED9480284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439763A8-6630-4C5A-A8BF-762ED9480284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439763A8-6630-4C5A-A8BF-762ED9480284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439763A8-6630-4C5A-A8BF-762ED9480284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7007F8C1-2F8F-4D93-A3F8-0893D1FFEFB8} = {60A2D8F2-C812-4F0A-8CDE-96938C52D586}
+		{439763A8-6630-4C5A-A8BF-762ED9480284} = {60A2D8F2-C812-4F0A-8CDE-96938C52D586}
+	EndGlobalSection
+EndGlobal
